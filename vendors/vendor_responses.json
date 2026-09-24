@@ -1,0 +1,58 @@
+[
+  {
+    "vendor_name": "CloudSecure Storage Ltd",
+    "vendor_type": "Cloud storage provider",
+    "criticality": "high",
+    "data_shared": "Customer PII, financial records",
+    "assessment_date": "2026-09-01",
+    "responses": {
+      "DH-01": true, "DH-02": true, "DH-03": true, "DH-04": false,
+      "AC-01": true, "AC-02": true, "AC-03": true,
+      "IR-01": true, "IR-02": true, "IR-03": false,
+      "BC-01": true, "BC-02": true,
+      "CC-01": true, "CC-02": true, "CC-03": true
+    }
+  },
+  {
+    "vendor_name": "QuickMail Marketing Co",
+    "vendor_type": "Email marketing SaaS",
+    "criticality": "medium",
+    "data_shared": "Customer email addresses, names",
+    "assessment_date": "2026-09-05",
+    "responses": {
+      "DH-01": true, "DH-02": true, "DH-03": false, "DH-04": true,
+      "AC-01": false, "AC-02": false, "AC-03": true,
+      "IR-01": true, "IR-02": false, "IR-03": false,
+      "BC-01": false, "BC-02": false,
+      "CC-01": false, "CC-02": false, "CC-03": true
+    }
+  },
+  {
+    "vendor_name": "LegacyDocs Processing Inc",
+    "vendor_type": "Document processing outsourcer",
+    "criticality": "high",
+    "data_shared": "Customer PII, contracts, ID documents",
+    "assessment_date": "2026-09-10",
+    "responses": {
+      "DH-01": false, "DH-02": true, "DH-03": false, "DH-04": true,
+      "AC-01": false, "AC-02": false, "AC-03": false,
+      "IR-01": false, "IR-02": false, "IR-03": true,
+      "BC-01": false, "BC-02": false,
+      "CC-01": false, "CC-02": false, "CC-03": false
+    }
+  },
+  {
+    "vendor_name": "TeamSync Collaboration Tools",
+    "vendor_type": "Internal productivity SaaS",
+    "criticality": "low",
+    "data_shared": "Internal project data, no customer PII",
+    "assessment_date": "2026-09-12",
+    "responses": {
+      "DH-01": true, "DH-02": true, "DH-03": true, "DH-04": false,
+      "AC-01": true, "AC-02": true, "AC-03": true,
+      "IR-01": true, "IR-02": true, "IR-03": false,
+      "BC-01": true, "BC-02": false,
+      "CC-01": true, "CC-02": false, "CC-03": true
+    }
+  }
+]

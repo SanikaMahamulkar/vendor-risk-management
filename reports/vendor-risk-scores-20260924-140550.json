@@ -1,0 +1,528 @@
+{
+  "generated_at": "2026-09-24T14:05:50.340839+00:00",
+  "vendors_assessed": 4,
+  "results": [
+    {
+      "vendor_name": "LegacyDocs Processing Inc",
+      "vendor_type": "Document processing outsourcer",
+      "criticality": "high",
+      "data_shared": "Customer PII, contracts, ID documents",
+      "assessment_date": "2026-09-10",
+      "overall_score_pct": 11.9,
+      "criticality_adjusted_risk_score": 132.1,
+      "rating": "HIGH RISK",
+      "domain_results": [
+        {
+          "domain": "Data Handling & Privacy",
+          "weight": 25,
+          "score_pct": 33.3,
+          "findings": [
+            {
+              "id": "DH-01",
+              "text": "Is customer/personal data encrypted at rest?",
+              "severity": "high",
+              "reason": "Answered No"
+            },
+            {
+              "id": "DH-03",
+              "text": "Does the vendor have a documented data retention and deletion policy?",
+              "severity": "medium",
+              "reason": "Answered No"
+            },
+            {
+              "id": "DH-04",
+              "text": "Is data processed or stored outside the UK/EEA?",
+              "severity": "medium",
+              "reason": "Answered Yes",
+              "note": "Not automatically disqualifying - requires adequacy/SCC review"
+            }
+          ]
+        },
+        {
+          "domain": "Access Control",
+          "weight": 20,
+          "score_pct": 0.0,
+          "findings": [
+            {
+              "id": "AC-01",
+              "text": "Is multi-factor authentication enforced for administrative access?",
+              "severity": "high",
+              "reason": "Answered No"
+            },
+            {
+              "id": "AC-02",
+              "text": "Does the vendor perform periodic access reviews?",
+              "severity": "medium",
+              "reason": "Answered No"
+            },
+            {
+              "id": "AC-03",
+              "text": "Is access provisioned on a least-privilege basis?",
+              "severity": "medium",
+              "reason": "Answered No"
+            }
+          ]
+        },
+        {
+          "domain": "Incident Response",
+          "weight": 20,
+          "score_pct": 0.0,
+          "findings": [
+            {
+              "id": "IR-01",
+              "text": "Does the vendor have a documented incident response plan?",
+              "severity": "high",
+              "reason": "Answered No"
+            },
+            {
+              "id": "IR-02",
+              "text": "Does the vendor commit to a breach notification SLA (e.g. within 72 hours)?",
+              "severity": "high",
+              "reason": "Answered No"
+            },
+            {
+              "id": "IR-03",
+              "text": "Has the vendor experienced a data breach in the last 24 months?",
+              "severity": "medium",
+              "reason": "Answered Yes",
+              "note": "Requires review of remediation, not automatically disqualifying"
+            }
+          ]
+        },
+        {
+          "domain": "Business Continuity",
+          "weight": 15,
+          "score_pct": 0.0,
+          "findings": [
+            {
+              "id": "BC-01",
+              "text": "Does the vendor have a documented business continuity / disaster recovery plan?",
+              "severity": "medium",
+              "reason": "Answered No"
+            },
+            {
+              "id": "BC-02",
+              "text": "Is the vendor's BC/DR plan tested at least annually?",
+              "severity": "low",
+              "reason": "Answered No"
+            }
+          ]
+        },
+        {
+          "domain": "Compliance & Certifications",
+          "weight": 20,
+          "score_pct": 0.0,
+          "findings": [
+            {
+              "id": "CC-01",
+              "text": "Does the vendor hold ISO 27001 certification (or equivalent)?",
+              "severity": "medium",
+              "reason": "Answered No"
+            },
+            {
+              "id": "CC-02",
+              "text": "Does the vendor hold a current SOC 2 Type II report?",
+              "severity": "low",
+              "reason": "Answered No"
+            },
+            {
+              "id": "CC-03",
+              "text": "Is the vendor GDPR compliant (has a DPA available for signature)?",
+              "severity": "high",
+              "reason": "Answered No"
+            }
+          ]
+        }
+      ],
+      "findings_count": 14,
+      "findings": [
+        {
+          "id": "DH-01",
+          "text": "Is customer/personal data encrypted at rest?",
+          "severity": "high",
+          "reason": "Answered No",
+          "domain": "Data Handling & Privacy"
+        },
+        {
+          "id": "DH-03",
+          "text": "Does the vendor have a documented data retention and deletion policy?",
+          "severity": "medium",
+          "reason": "Answered No",
+          "domain": "Data Handling & Privacy"
+        },
+        {
+          "id": "DH-04",
+          "text": "Is data processed or stored outside the UK/EEA?",
+          "severity": "medium",
+          "reason": "Answered Yes",
+          "note": "Not automatically disqualifying - requires adequacy/SCC review",
+          "domain": "Data Handling & Privacy"
+        },
+        {
+          "id": "AC-01",
+          "text": "Is multi-factor authentication enforced for administrative access?",
+          "severity": "high",
+          "reason": "Answered No",
+          "domain": "Access Control"
+        },
+        {
+          "id": "AC-02",
+          "text": "Does the vendor perform periodic access reviews?",
+          "severity": "medium",
+          "reason": "Answered No",
+          "domain": "Access Control"
+        },
+        {
+          "id": "AC-03",
+          "text": "Is access provisioned on a least-privilege basis?",
+          "severity": "medium",
+          "reason": "Answered No",
+          "domain": "Access Control"
+        },
+        {
+          "id": "IR-01",
+          "text": "Does the vendor have a documented incident response plan?",
+          "severity": "high",
+          "reason": "Answered No",
+          "domain": "Incident Response"
+        },
+        {
+          "id": "IR-02",
+          "text": "Does the vendor commit to a breach notification SLA (e.g. within 72 hours)?",
+          "severity": "high",
+          "reason": "Answered No",
+          "domain": "Incident Response"
+        },
+        {
+          "id": "IR-03",
+          "text": "Has the vendor experienced a data breach in the last 24 months?",
+          "severity": "medium",
+          "reason": "Answered Yes",
+          "note": "Requires review of remediation, not automatically disqualifying",
+          "domain": "Incident Response"
+        },
+        {
+          "id": "BC-01",
+          "text": "Does the vendor have a documented business continuity / disaster recovery plan?",
+          "severity": "medium",
+          "reason": "Answered No",
+          "domain": "Business Continuity"
+        },
+        {
+          "id": "BC-02",
+          "text": "Is the vendor's BC/DR plan tested at least annually?",
+          "severity": "low",
+          "reason": "Answered No",
+          "domain": "Business Continuity"
+        },
+        {
+          "id": "CC-01",
+          "text": "Does the vendor hold ISO 27001 certification (or equivalent)?",
+          "severity": "medium",
+          "reason": "Answered No",
+          "domain": "Compliance & Certifications"
+        },
+        {
+          "id": "CC-02",
+          "text": "Does the vendor hold a current SOC 2 Type II report?",
+          "severity": "low",
+          "reason": "Answered No",
+          "domain": "Compliance & Certifications"
+        },
+        {
+          "id": "CC-03",
+          "text": "Is the vendor GDPR compliant (has a DPA available for signature)?",
+          "severity": "high",
+          "reason": "Answered No",
+          "domain": "Compliance & Certifications"
+        }
+      ]
+    },
+    {
+      "vendor_name": "QuickMail Marketing Co",
+      "vendor_type": "Email marketing SaaS",
+      "criticality": "medium",
+      "data_shared": "Customer email addresses, names",
+      "assessment_date": "2026-09-05",
+      "overall_score_pct": 52.5,
+      "criticality_adjusted_risk_score": 47.5,
+      "rating": "HIGH RISK",
+      "domain_results": [
+        {
+          "domain": "Data Handling & Privacy",
+          "weight": 25,
+          "score_pct": 66.7,
+          "findings": [
+            {
+              "id": "DH-03",
+              "text": "Does the vendor have a documented data retention and deletion policy?",
+              "severity": "medium",
+              "reason": "Answered No"
+            },
+            {
+              "id": "DH-04",
+              "text": "Is data processed or stored outside the UK/EEA?",
+              "severity": "medium",
+              "reason": "Answered Yes",
+              "note": "Not automatically disqualifying - requires adequacy/SCC review"
+            }
+          ]
+        },
+        {
+          "domain": "Access Control",
+          "weight": 20,
+          "score_pct": 25.0,
+          "findings": [
+            {
+              "id": "AC-01",
+              "text": "Is multi-factor authentication enforced for administrative access?",
+              "severity": "high",
+              "reason": "Answered No"
+            },
+            {
+              "id": "AC-02",
+              "text": "Does the vendor perform periodic access reviews?",
+              "severity": "medium",
+              "reason": "Answered No"
+            }
+          ]
+        },
+        {
+          "domain": "Incident Response",
+          "weight": 20,
+          "score_pct": 60.0,
+          "findings": [
+            {
+              "id": "IR-02",
+              "text": "Does the vendor commit to a breach notification SLA (e.g. within 72 hours)?",
+              "severity": "high",
+              "reason": "Answered No"
+            }
+          ]
+        },
+        {
+          "domain": "Business Continuity",
+          "weight": 15,
+          "score_pct": 0.0,
+          "findings": [
+            {
+              "id": "BC-01",
+              "text": "Does the vendor have a documented business continuity / disaster recovery plan?",
+              "severity": "medium",
+              "reason": "Answered No"
+            },
+            {
+              "id": "BC-02",
+              "text": "Is the vendor's BC/DR plan tested at least annually?",
+              "severity": "low",
+              "reason": "Answered No"
+            }
+          ]
+        },
+        {
+          "domain": "Compliance & Certifications",
+          "weight": 20,
+          "score_pct": 58.8,
+          "findings": [
+            {
+              "id": "CC-01",
+              "text": "Does the vendor hold ISO 27001 certification (or equivalent)?",
+              "severity": "medium",
+              "reason": "Answered No"
+            },
+            {
+              "id": "CC-02",
+              "text": "Does the vendor hold a current SOC 2 Type II report?",
+              "severity": "low",
+              "reason": "Answered No"
+            }
+          ]
+        }
+      ],
+      "findings_count": 9,
+      "findings": [
+        {
+          "id": "DH-03",
+          "text": "Does the vendor have a documented data retention and deletion policy?",
+          "severity": "medium",
+          "reason": "Answered No",
+          "domain": "Data Handling & Privacy"
+        },
+        {
+          "id": "DH-04",
+          "text": "Is data processed or stored outside the UK/EEA?",
+          "severity": "medium",
+          "reason": "Answered Yes",
+          "note": "Not automatically disqualifying - requires adequacy/SCC review",
+          "domain": "Data Handling & Privacy"
+        },
+        {
+          "id": "AC-01",
+          "text": "Is multi-factor authentication enforced for administrative access?",
+          "severity": "high",
+          "reason": "Answered No",
+          "domain": "Access Control"
+        },
+        {
+          "id": "AC-02",
+          "text": "Does the vendor perform periodic access reviews?",
+          "severity": "medium",
+          "reason": "Answered No",
+          "domain": "Access Control"
+        },
+        {
+          "id": "IR-02",
+          "text": "Does the vendor commit to a breach notification SLA (e.g. within 72 hours)?",
+          "severity": "high",
+          "reason": "Answered No",
+          "domain": "Incident Response"
+        },
+        {
+          "id": "BC-01",
+          "text": "Does the vendor have a documented business continuity / disaster recovery plan?",
+          "severity": "medium",
+          "reason": "Answered No",
+          "domain": "Business Continuity"
+        },
+        {
+          "id": "BC-02",
+          "text": "Is the vendor's BC/DR plan tested at least annually?",
+          "severity": "low",
+          "reason": "Answered No",
+          "domain": "Business Continuity"
+        },
+        {
+          "id": "CC-01",
+          "text": "Does the vendor hold ISO 27001 certification (or equivalent)?",
+          "severity": "medium",
+          "reason": "Answered No",
+          "domain": "Compliance & Certifications"
+        },
+        {
+          "id": "CC-02",
+          "text": "Does the vendor hold a current SOC 2 Type II report?",
+          "severity": "low",
+          "reason": "Answered No",
+          "domain": "Compliance & Certifications"
+        }
+      ]
+    },
+    {
+      "vendor_name": "TeamSync Collaboration Tools",
+      "vendor_type": "Internal productivity SaaS",
+      "criticality": "low",
+      "data_shared": "Internal project data, no customer PII",
+      "assessment_date": "2026-09-12",
+      "overall_score_pct": 96.7,
+      "criticality_adjusted_risk_score": 2.0,
+      "rating": "LOW RISK",
+      "domain_results": [
+        {
+          "domain": "Data Handling & Privacy",
+          "weight": 25,
+          "score_pct": 100.0,
+          "findings": []
+        },
+        {
+          "domain": "Access Control",
+          "weight": 20,
+          "score_pct": 100.0,
+          "findings": []
+        },
+        {
+          "domain": "Incident Response",
+          "weight": 20,
+          "score_pct": 100.0,
+          "findings": []
+        },
+        {
+          "domain": "Business Continuity",
+          "weight": 15,
+          "score_pct": 71.4,
+          "findings": [
+            {
+              "id": "BC-02",
+              "text": "Is the vendor's BC/DR plan tested at least annually?",
+              "severity": "low",
+              "reason": "Answered No"
+            }
+          ]
+        },
+        {
+          "domain": "Compliance & Certifications",
+          "weight": 20,
+          "score_pct": 88.2,
+          "findings": [
+            {
+              "id": "CC-02",
+              "text": "Does the vendor hold a current SOC 2 Type II report?",
+              "severity": "low",
+              "reason": "Answered No"
+            }
+          ]
+        }
+      ],
+      "findings_count": 2,
+      "findings": [
+        {
+          "id": "BC-02",
+          "text": "Is the vendor's BC/DR plan tested at least annually?",
+          "severity": "low",
+          "reason": "Answered No",
+          "domain": "Business Continuity"
+        },
+        {
+          "id": "CC-02",
+          "text": "Does the vendor hold a current SOC 2 Type II report?",
+          "severity": "low",
+          "reason": "Answered No",
+          "domain": "Compliance & Certifications"
+        }
+      ]
+    },
+    {
+      "vendor_name": "CloudSecure Storage Ltd",
+      "vendor_type": "Cloud storage provider",
+      "criticality": "high",
+      "data_shared": "Customer PII, financial records",
+      "assessment_date": "2026-09-01",
+      "overall_score_pct": 100.0,
+      "criticality_adjusted_risk_score": 0.0,
+      "rating": "LOW RISK",
+      "domain_results": [
+        {
+          "domain": "Data Handling & Privacy",
+          "weight": 25,
+          "score_pct": 100.0,
+          "findings": []
+        },
+        {
+          "domain": "Access Control",
+          "weight": 20,
+          "score_pct": 100.0,
+          "findings": []
+        },
+        {
+          "domain": "Incident Response",
+          "weight": 20,
+          "score_pct": 100.0,
+          "findings": []
+        },
+        {
+          "domain": "Business Continuity",
+          "weight": 15,
+          "score_pct": 100.0,
+          "findings": []
+        },
+        {
+          "domain": "Compliance & Certifications",
+          "weight": 20,
+          "score_pct": 100.0,
+          "findings": []
+        }
+      ],
+      "findings_count": 0,
+      "findings": []
+    }
+  ]
+}
