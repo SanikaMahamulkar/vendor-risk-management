@@ -1,0 +1,113 @@
+{
+  "questionnaire_version": "1.0",
+  "based_on": "SIG-Lite (abbreviated) structure, adapted for this project",
+  "domains": [
+    {
+      "domain": "Data Handling & Privacy",
+      "weight": 25,
+      "questions": [
+        {
+          "id": "DH-01",
+          "text": "Is customer/personal data encrypted at rest?",
+          "risk_if_no": "high"
+        },
+        {
+          "id": "DH-02",
+          "text": "Is customer/personal data encrypted in transit (TLS 1.2+)?",
+          "risk_if_no": "high"
+        },
+        {
+          "id": "DH-03",
+          "text": "Does the vendor have a documented data retention and deletion policy?",
+          "risk_if_no": "medium"
+        },
+        {
+          "id": "DH-04",
+          "text": "Is data processed or stored outside the UK/EEA?",
+          "risk_if_yes": "medium",
+          "note": "Not automatically disqualifying - requires adequacy/SCC review"
+        }
+      ]
+    },
+    {
+      "domain": "Access Control",
+      "weight": 20,
+      "questions": [
+        {
+          "id": "AC-01",
+          "text": "Is multi-factor authentication enforced for administrative access?",
+          "risk_if_no": "high"
+        },
+        {
+          "id": "AC-02",
+          "text": "Does the vendor perform periodic access reviews?",
+          "risk_if_no": "medium"
+        },
+        {
+          "id": "AC-03",
+          "text": "Is access provisioned on a least-privilege basis?",
+          "risk_if_no": "medium"
+        }
+      ]
+    },
+    {
+      "domain": "Incident Response",
+      "weight": 20,
+      "questions": [
+        {
+          "id": "IR-01",
+          "text": "Does the vendor have a documented incident response plan?",
+          "risk_if_no": "high"
+        },
+        {
+          "id": "IR-02",
+          "text": "Does the vendor commit to a breach notification SLA (e.g. within 72 hours)?",
+          "risk_if_no": "high"
+        },
+        {
+          "id": "IR-03",
+          "text": "Has the vendor experienced a data breach in the last 24 months?",
+          "risk_if_yes": "medium",
+          "note": "Requires review of remediation, not automatically disqualifying"
+        }
+      ]
+    },
+    {
+      "domain": "Business Continuity",
+      "weight": 15,
+      "questions": [
+        {
+          "id": "BC-01",
+          "text": "Does the vendor have a documented business continuity / disaster recovery plan?",
+          "risk_if_no": "medium"
+        },
+        {
+          "id": "BC-02",
+          "text": "Is the vendor's BC/DR plan tested at least annually?",
+          "risk_if_no": "low"
+        }
+      ]
+    },
+    {
+      "domain": "Compliance & Certifications",
+      "weight": 20,
+      "questions": [
+        {
+          "id": "CC-01",
+          "text": "Does the vendor hold ISO 27001 certification (or equivalent)?",
+          "risk_if_no": "medium"
+        },
+        {
+          "id": "CC-02",
+          "text": "Does the vendor hold a current SOC 2 Type II report?",
+          "risk_if_no": "low"
+        },
+        {
+          "id": "CC-03",
+          "text": "Is the vendor GDPR compliant (has a DPA available for signature)?",
+          "risk_if_no": "high"
+        }
+      ]
+    }
+  ]
+}
